@@ -8,4 +8,4 @@ spec:
       targetPort: 8000                
   selector:
     app: todo-app                    
-  type: LoadBalancer
+  type: NodePort
